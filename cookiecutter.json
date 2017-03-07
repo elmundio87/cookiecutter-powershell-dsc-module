@@ -1,9 +1,8 @@
 {
+  "project_name": "ExamplePowershellModule",
   "full_name": "Edmund Dipple",
   "email": "elmundio1987@gmail.com",
   "company": "DevOpsGuys",
-  "project_name": "Powershell DSC Module Boilerplate",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-  "project_short_description": "Powershell DSC Module Boilerplate contains all the boilerplate you need to create a DSC module.",
+  "project_short_description": "{{ cookiecutter.project_name }}",
   "version": "1.0.0"
 }

@@ -1,4 +1,4 @@
-configuration testConfiguration
+configuration {{cookiecutter.project_name}}
 {
     param
     (
@@ -6,7 +6,7 @@ configuration testConfiguration
         [string[]]$NodeName = 'localhost'
     )
 
-    Import-DSCResource -ModuleName {{cookiecutter.project_slug}}
+    Import-DSCResource -ModuleName {{cookiecutter.project_name}}
 
     Node $NodeName
     {
