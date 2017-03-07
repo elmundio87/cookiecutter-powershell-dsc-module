@@ -1,0 +1,11 @@
+{
+  "full_name": "Edmund Dipple",
+  "email": "elmundio1987@gmail.com",
+  "company": "DevOpsGuys",
+  "project_name": "Powershell DSC Module Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "project_short_description": "Powershell DSC Module Boilerplate contains all the boilerplate you need to create a DSC module.",
+  "version": "1.0.0",
+  "create_author_file": "y",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
