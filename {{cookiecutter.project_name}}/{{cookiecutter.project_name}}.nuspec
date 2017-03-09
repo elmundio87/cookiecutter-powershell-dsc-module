@@ -7,7 +7,7 @@
     <authors>{{cookiecutter.full_name}}</authors>
     <owners>{{cookiecutter.company}}</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>{{cookiecutter.short_description}}</description>
+    <description>{{cookiecutter.project_short_description}}</description>
     <releaseNotes></releaseNotes>
     <dependencies>
       <!-- <dependency id="xPSDesiredStateConfiguration" version="6.0.0.0" /> -->
