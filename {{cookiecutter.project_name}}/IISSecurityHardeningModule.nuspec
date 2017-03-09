@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{cookiecutter.project_name}}</id>
+    <title>{{cookiecutter.project_name}}</title>
+    <version>{{cookiecutter.version}}</version>
+    <authors>{{cookiecutter.full_name}}</authors>
+    <owners>{{cookiecutter.company}}</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>{{cookiecutter.short_description}}</description>
+    <releaseNotes></releaseNotes>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="DSCResources/**/*" target="DSCResources"/>
+    <file src="{{cookiecutter.project_name}}.psd1" />
+  </files>
+</package>
