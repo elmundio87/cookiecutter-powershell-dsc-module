@@ -3,4 +3,4 @@ source https://powershellgallery.com/api/v2
 //source /tmp/nuget
 //source C:\temp\nuget
 
-// nuget xPSDesiredStateConfiguration == 6.0.0.0
+//nuget xPSDesiredStateConfiguration == 6.0.0.0
