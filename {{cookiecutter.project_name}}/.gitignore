@@ -2,3 +2,8 @@ vendor/
 .bundle/
 .kitchen/
 .kitchen.local.yml
+packages/
+.paket/paket.exe
+*.nupkg
+
+.DS_Store
