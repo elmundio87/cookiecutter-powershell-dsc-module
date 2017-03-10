@@ -1,4 +1,4 @@
-type project
+type file
 id {{cookiecutter.project_name}}
 version {{cookiecutter.version}}
 authors {{cookiecutter.full_name}}
