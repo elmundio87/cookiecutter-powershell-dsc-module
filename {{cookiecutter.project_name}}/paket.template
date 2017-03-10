@@ -1,4 +1,4 @@
-type file
+type project
 id {{cookiecutter.project_name}}
 version {{cookiecutter.version}}
 authors {{cookiecutter.full_name}}
@@ -8,4 +8,4 @@ files
     DSCResources ==> DSCResources
     {{cookiecutter.project_name}}.psd1 ==> .
 //dependencies
-//    xPSDesiredStateConfiguration == 6.0.0.0
+//    xPSDesiredStateConfiguration == LOCKEDVERSION
