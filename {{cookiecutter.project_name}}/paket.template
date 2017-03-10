@@ -7,3 +7,5 @@ description
 files
     DSCResources ==> DSCResources
     {{cookiecutter.project_name}}.psd1 ==> .
+//dependencies
+//    xPSDesiredStateConfiguration == 6.0.0.0
