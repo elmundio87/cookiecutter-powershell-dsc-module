@@ -1,8 +1,10 @@
+packages/*
+!packages/{{cookiecutter.project_name}}/
+
 vendor/
 .bundle/
 .kitchen/
 .kitchen.local.yml
-packages/
 .paket/paket.exe
 *.nupkg
 
