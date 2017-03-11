@@ -10,6 +10,13 @@ configuration {{cookiecutter.project_name}}
 
     Node $NodeName
     {
+      
+        # Install the IIS role
+        WindowsFeature IIS
+        {
+            Ensure          = $Ensure
+            Name            = "Web-Server"
+        }
 
     }
 }
