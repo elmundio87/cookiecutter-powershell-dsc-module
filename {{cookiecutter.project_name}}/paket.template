@@ -5,7 +5,6 @@ authors {{cookiecutter.full_name}}
 description
     {{cookiecutter.project_short_description}}
 files
-    DSCResources ==> DSCResources
-    {{cookiecutter.project_name}}.psd1 ==> .
+    packages/{{cookiecutter.project_name}} ==> .
 //dependencies
 //    xPSDesiredStateConfiguration == LOCKEDVERSION
